@@ -27,5 +27,5 @@ We run this which gets 98%.
 python finetune.py --data-location <path to folder containing train and test> --batch-size 128 --model ViT-L/14
 ```
 
-Feel free to also try with a smaller model `--model ViT-B/32`.
+We run the code above with 4 A40 GPUs. Feel free to also try with a smaller model `--model ViT-B/32`.
 
