@@ -132,6 +132,7 @@ if __name__ == '__main__':
     classnames = [idx_to_class[i].replace(
         '_', ' ') for i in range(len(idx_to_class))]
     print('classnames are', classnames)
+    print(classnames)
 
     clf = zeroshot_classifier(base_model, classnames, template, DEVICE)
     NUM_CLASSES = len(classnames)
